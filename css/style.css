@@ -36,7 +36,7 @@
 	}
 
 	a {
-		color: #383b43;
+		color: #9a2b2e;
 		text-decoration: none;
 	}
 
@@ -253,8 +253,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #383b43;
-			box-shadow: 0 0 0 1px #383b43;
+			border-color: #1d4375;
+			box-shadow: 0 0 0 1px #1d4375;
 		}
 
 	.select-wrapper {
@@ -357,16 +357,16 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #3cadd4;
-			border-color: #3cadd4;
+			background: #287ea1;
+			border-color: #287ea1;
 			color: #ffffff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #383b43;
-			box-shadow: 0 0 0 1px #383b43;
+			border-color: #1d4375;
+			box-shadow: 0 0 0 1px #1d4375;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -449,7 +449,7 @@
 		}
 
 		.icon.rounded {
-			background-color: #383b43;
+			background-color: #1d4375;
 			border-radius: 100%;
 			color: #ffffff;
 			display: inline-block;
@@ -465,7 +465,7 @@
 			}
 
 			.icon.rounded.color1 {
-				background-color: #3cadd4;
+				background-color: #287ea1;
 			}
 
 			.icon.rounded.color2 {
@@ -485,7 +485,7 @@
 			}
 
 			.icon.rounded.color6 {
-				background-color: #d43c61;
+				background-color: #9a2b2e;
 			}
 
 			.icon.rounded.color7 {
@@ -497,7 +497,7 @@
 			}
 
 			.icon.rounded.color9 {
-				background-color: #add43c;
+				background-color: #5360ab;
 			}
 
 			.icon.rounded.color10 {
@@ -792,7 +792,7 @@
 		-o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #3cadd4;
+		background-color: #287ea1;
 		border-radius: 30px;
 		border: 0;
 		color: #ffffff !important;
@@ -894,7 +894,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #383b43;
+			background-color: #1d4375;
 			color: #ffffff !important;
 		}
 
@@ -940,7 +940,7 @@
 		}
 
 	#header {
-		background-color: #383b43;
+		background-color: #1d4375;
 		color: #ffffff;
 		cursor: default;
 		font-size: 1.1em;
@@ -961,7 +961,12 @@
 		}
 
 			#header h1 a {
+				background: url('../images/sua-marca_logo.png') 0 0 no-repeat;
+				display: inline-block;
 				font-size: 1.25em;
+				height: 6em;
+				text-indent: -5000px;
+				width: 6em;
 			}
 
 		#header nav {
@@ -1005,8 +1010,8 @@
 					}
 
 					#header nav > ul > li .button {
-						background-color: #fff;
-						color: #444 !important;
+						background-color: #9a2b2e;
+						color: #fff !important;
 						height: 2.25em;
 						line-height: 2.25em;
 						margin-bottom: 0;
@@ -1115,7 +1120,7 @@
 			}
 
 		.wrapper.style3 {
-			background-color: #3cadd4;
+			background-color: #287ea1;
 			color: #ffffff;
 		}
 
@@ -1135,7 +1140,7 @@
 /* Footer */
 
 	#footer {
-		background: #383b43;
+		background: #1d4375;
 		padding: 6em 0em 4em;
 	}
 
@@ -1159,7 +1164,7 @@
 		}
 
 			#footer .copyright li {
-				color: #858585;
+				color: #fff;
 				display: inline-block;
 				list-style: none;
 				margin-left: 0.5em;
@@ -1172,7 +1177,7 @@
 				}
 
 			#footer .copyright a {
-				color: #858585;
+				color: #fff;
 			}
 
 		#footer .icons {
