@@ -1040,8 +1040,16 @@
 		background-position: center center;
 		background-size: cover;
 		color: #ffffff;
-		padding: 14em 0em 14em;
+		padding: 5em 0em 14em;
 		text-align: center;
+	}
+
+	#banner:before {
+		background: url(../images/sua-marca_logo.png) center center no-repeat;
+		content: '';
+		display: inline-block;
+		height: 200px;
+		width: 200px;
 	}
 
 		#banner :last-child {
