@@ -1230,3 +1230,129 @@
 		.grid-demo .row.flush > div:last-child span {
 			border-radius: 0 4px 4px 0;
 		}
+
+.video-container {
+	padding-bottom: 56.25%;
+	padding-top: 30px; height: 0; overflow: hidden;
+	position: relative;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.quote { margin: 1em 0 4em 1.875em; }
+
+.quote p {
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.quote q {
+	font-weight: bold;
+}
+
+.quote q:before {
+	content: '-';
+	display: inline-block;
+	margin-right: 0.3125em;
+}
+
+.timeline {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.li {
+	max-width: 16.66666666666667%;
+	min-height: 11em;
+	padding: 0;
+  transition: all 200ms ease-in;
+}
+
+.timestamp {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: 100;
+  margin-bottom: 1em;
+  padding: 0 0.75em;
+}
+
+.timestamp h4 {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.status {
+  border-top: 0.125em solid #D6DCE0;
+  display: flex;
+  justify-content: center;
+  padding: 0 0.75em;
+  position: relative;
+  transition: all 200ms ease-in;
+}
+
+.status:before {
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid #5360ab;
+  content: "";
+  height: 1.5625em;
+  left: 42%;
+  position: absolute;
+  top: -0.9375em;
+  transition: all 200ms ease-in;
+  width: 1.5625em;
+}
+
+.status .description { margin-top: 1em; }
+
+.li.complete .status {
+  border-top: 0.125em solid #66DC71;
+}
+
+.li.complete .status:before {
+  background-color: #66DC71;
+  border: none;
+  transition: all 200ms ease-in;
+}
+
+@media (min-device-width: 320px) and (max-device-width: 700px) {
+  .timeline {
+    list-style-type: none;
+    display: block;
+  }
+
+  .li {
+    transition: all 200ms ease-in;
+    display: flex;
+    width: inherit;
+  }
+
+  .timestamp {
+    width: 100px;
+  }
+
+  .status:before {
+    left: -8%;
+    top: 30%;
+    transition: all 200ms ease-in;
+  }
+}
+
+.partner:before {
+	content: 'Parceria:';
+	display: block;
+	font-style: italic;
+	margin-left: 1.25em;
+	text-align: left;
+}
