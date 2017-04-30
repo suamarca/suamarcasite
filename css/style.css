@@ -1348,3 +1348,11 @@
     transition: all 200ms ease-in;
   }
 }
+
+.partner:before {
+	content: 'Parceria:';
+	display: block;
+	font-style: italic;
+	margin-left: 1.25em;
+	text-align: left;
+}
