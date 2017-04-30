@@ -1230,3 +1230,34 @@
 		.grid-demo .row.flush > div:last-child span {
 			border-radius: 0 4px 4px 0;
 		}
+
+.video-container {
+	padding-bottom: 56.25%;
+	padding-top: 30px; height: 0; overflow: hidden;
+	position: relative;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.quote {
+	margin-left: 1.875em;
+	margin-top: 1em;
+}
+
+.quote q {
+	font-weight: bold;
+}
+
+.quote q:before {
+	content: '-';
+	display: inline-block;
+	margin-right: 0.3125em;
+}
